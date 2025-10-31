@@ -23,9 +23,9 @@
 
 
 ### domain/LottoNumber.java
-- [ ] 단일 번호 저장
-- [ ] 1~45 범위 검증
-- [ ] equals(), hashCode() 오버라이드
+- [X] 단일 번호 저장
+- [X] 1~45 범위 검증
+- [X] equals(), hashCode() 오버라이드
 
 ### domain/LottoTicket.java
 - [ ] 여러 장의 Lotto 관리
