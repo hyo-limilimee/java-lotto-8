@@ -14,12 +14,12 @@
 
 
 ### domain/Lotto.java
-- [ ] 6개 번호 저장
-- [ ] 번호 개수 검증
-- [ ] 중복 번호 검증
-- [ ] 범위(1~45) 검증
-- [ ] 번호 정렬
-- [ ] 번호 리스트 반환 메서드 구현
+- [X] 6개 번호 저장
+- [X] 번호 개수 검증
+- [X] 중복 번호 검증
+- [X] 범위(1~45) 검증
+- [X] 번호 정렬
+- [X] 번호 리스트 반환 메서드 구현
 
 
 ### domain/LottoNumber.java
@@ -92,6 +92,8 @@
 ### test/LottoTest.java
 - [ ] Lotto 객체 생성 검증
 - [ ] 번호 개수 및 범위 검증 테스트
+
+### test/domain/LottoNumberTest.java
 
 
 ### test/RankTest.java
