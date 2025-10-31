@@ -41,10 +41,10 @@
 
 
 ### domain/Rank.java
-- [ ] Enum 정의 (1~5등, NONE)
-- [ ] 일치 개수, 보너스 여부, 상금 필드 정의
-- [ ] `Rank.of(matchCount, matchBonus)` 메서드 구현
-- [ ] 상금 반환 메서드 구현
+- [X] Enum 정의 (1~5등, NONE)
+- [X] 일치 개수, 보너스 여부, 상금 필드 정의
+- [X] `Rank.of(matchCount, matchBonus)` 메서드 구현
+- [X] 상금 반환 메서드 구현
 
 ### domain/LottoResult.java
 - [ ] Rank별 당첨 개수 집계
@@ -95,10 +95,12 @@
 
 ### test/domain/LottoNumberTest.java
 
+### test/domain/WinningLottoTest.java
+
 
 ### test/RankTest.java
-- [ ] Rank 판정 로직 테스트
-- [ ] 보너스 번호 포함 여부 테스트
+- [X] Rank 판정 로직 테스트
+- [X] 보너스 번호 포함 여부 테스트
 
 ### test/LottoResultTest.java
 - [ ] 당첨 결과 집계 테스트
