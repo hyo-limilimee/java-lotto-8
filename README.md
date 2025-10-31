@@ -85,13 +85,13 @@
 
 
 ### util/Converter.java
-- [ ] 입력 문자열(`"1,2,3,4,5,6"`)을 `List<Integer>`로 변환
-- [ ] 공백 제거 처리
-- [ ] 숫자 변환 시 예외 처리
+- [X] 입력 문자열(`"1,2,3,4,5,6"`)을 `List<Integer>`로 변환
+- [X] 공백 제거 처리
+- [X] 숫자 변환 시 예외 처리
 
 ### test/LottoTest.java
-- [ ] Lotto 객체 생성 검증
-- [ ] 번호 개수 및 범위 검증 테스트
+- [X] Lotto 객체 생성 검증
+- [X] 번호 개수 및 범위 검증 테스트
 
 ### test/domain/LottoNumberTest.java
 
@@ -106,14 +106,14 @@
 - [ ] 당첨 결과 집계 테스트
 - [ ] 수익률 계산 테스트
 
-
 ### test/LottoServiceTest.java
 - [ ] 로또 발행 수량 테스트
 - [ ] 결과 계산 로직 테스트
 
 ### test/ValidatorTest.java
-- [ ] 각 유효성 검증 로직 테스트
-- [ ] 예외 발생 시 메시지 확인
+- [X] 각 유효성 검증 로직 테스트
+- [X] 예외 발생 시 메시지 확인
+
 
 ```
 src/
