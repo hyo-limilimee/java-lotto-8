@@ -44,10 +44,10 @@
 - [X] 상금 반환 메서드 구현
 
 ### domain/LottoResult.java
-- [ ] Rank별 당첨 개수 집계
-- [ ] 총 상금 합계 계산
-- [ ] 수익률 계산
-- [ ] 결과 출력용 데이터 반환
+- [X] Rank별 당첨 개수 집계
+- [X] 총 상금 합계 계산
+- [X] 수익률 계산
+- [X] 결과 출력용 데이터 반환
 
 ### service/LottoService.java
 - [ ] 금액 입력에 따른 로또 자동 발행
@@ -97,8 +97,8 @@
 - [X] 보너스 번호 포함 여부 테스트
 
 ### test/service/LottoResultTest.java
-- [ ] 당첨 결과 집계 테스트
-- [ ] 수익률 계산 테스트
+- [X] 당첨 결과 집계 테스트
+- [X] 수익률 계산 테스트
 
 ### test/service/LottoServiceTest.java
 - [ ] 로또 발행 수량 테스트
