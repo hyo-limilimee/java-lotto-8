@@ -2,15 +2,15 @@
 
 ## 구현할 기능
 ### Application.java
-- [ ] `main()` 메서드 작성
-- [ ] `LottoController.run()` 호출
+- [X] `main()` 메서드 작성
+- [X] `LottoController.run()` 호출
 
 ### controller/LottoController.java
-- [ ] 전체 프로그램 흐름 제어
-- [ ] 구입 금액 입력 → 로또 발행 → 출력
-- [ ] 당첨 번호, 보너스 번호 입력
-- [ ] 결과 계산 및 출력å
-- [ ] 예외 발생 시 메시지 출력 후 재입력 처리
+- [X] 전체 프로그램 흐름 제어
+- [X] 구입 금액 입력 → 로또 발행 → 출력
+- [X] 당첨 번호, 보너스 번호 입력
+- [X] 결과 계산 및 출력å
+- [X] 예외 발생 시 메시지 출력 후 재입력 처리
 
 ### domain/Lotto.java
 - [X] 6개 번호 저장
@@ -70,7 +70,7 @@
 - [X] `[ERROR]` 포맷으로 예외 메시지 출력
 - [X] IllegalArgumentException 처리
 
-### util/Validator.java
+### utils/Validator.java
 - [X] 금액이 1,000원 단위인지 검증
 - [X] 번호가 6개인지 검증
 - [X] 번호 중복 검증
@@ -87,10 +87,19 @@
 - [X] 번호 개수 및 범위 검증 테스트
 
 ### test/domain/LottoNumberTest.java
+- [X] 1~45 범위 내 숫자 생성 테스트
+- [X] 범위 초과 시 예외 발생 테스트
+- [X] equals(), hashCode() 동작 테스트
 
 ### test/domain/WinningLottoTest.java
+- [X] 보너스 번호 중복 시 예외 테스트
+- [X] 일치 개수에 따른 Rank 계산 테스트
+- [X] 보너스 번호 일치 여부에 따른 Rank 변화 테스트
 
-### test/domain/LottoTicketTest
+### test/domain/LottoTicketTest.java
+- [X] 여러 장의 로또 생성 시 개수 반환 테스트
+- [X] 빈 로또 리스트일 때 size=0 테스트
+- [X] getLottos() 로 반환되는 로또 리스트 검증
 
 ### test/domain/RankTest.java
 - [X] Rank 판정 로직 테스트
@@ -104,7 +113,6 @@
 - [X] 로또 발행 수량 테스트
 - [X] 결과 계산 로직 테스트
 
-```
 src/
 ├── main/
 │ └── java/
@@ -132,9 +140,18 @@ src/
 └── test/
 └── java/
 └── lotto/
-├── LottoTest.java
-├── RankTest.java
-├── LottoResultTest.java
-├── LottoServiceTest.java
-└── ValidatorTest.java
+├── controller/
+│ └── LottoControllerTest.java
+├── domain/
+│ ├── LottoTest.java
+│ ├── LottoNumberTest.java
+│ ├── LottoTicketTest.java
+│ ├── WinningLottoTest.java
+│ ├── RankTest.java
+│ └── LottoResultTest.java
+├── service/
+│ └── LottoServiceTest.java
+└── util/
+├── ValidatorTest.java
+└── ConverterTest.java
 ```
