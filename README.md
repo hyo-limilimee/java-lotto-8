@@ -62,13 +62,13 @@
 - [X] 입력값 문자열 반환
 
 ### view/OutputView.java
-- [ ] 구매한 로또 개수 및 번호 출력
-- [ ] 당첨 통계 출력
-- [ ] 수익률 출력
+- [X] 구매한 로또 개수 및 번호 출력
+- [X] 당첨 통계 출력
+- [X] 수익률 출력
 
 ### view/ErrorHandler.java
-- [ ] `[ERROR]` 포맷으로 예외 메시지 출력
-- [ ] IllegalArgumentException 처리
+- [X] `[ERROR]` 포맷으로 예외 메시지 출력
+- [X] IllegalArgumentException 처리
 
 ### util/Validator.java
 - [X] 금액이 1,000원 단위인지 검증
